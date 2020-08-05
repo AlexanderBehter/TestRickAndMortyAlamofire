@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112664DD24D47C02002283F9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112664DC24D47C02002283F9 /* ImageView.swift */; };
+		112664DF24D48001002283F9 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112664DE24D48001002283F9 /* ImageManager.swift */; };
 		11A0AF4C24D1B189009DD9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF4B24D1B189009DD9E8 /* AppDelegate.swift */; };
 		11A0AF4E24D1B189009DD9E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF4D24D1B189009DD9E8 /* SceneDelegate.swift */; };
-		11A0AF5024D1B189009DD9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF4F24D1B189009DD9E8 /* ViewController.swift */; };
 		11A0AF5324D1B189009DD9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A0AF5124D1B189009DD9E8 /* Main.storyboard */; };
 		11A0AF5524D1B18C009DD9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0AF5424D1B18C009DD9E8 /* Assets.xcassets */; };
 		11A0AF5824D1B18C009DD9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A0AF5624D1B18C009DD9E8 /* LaunchScreen.storyboard */; };
+		11A0AF6024D1B293009DD9E8 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF5F24D1B293009DD9E8 /* MainTableViewController.swift */; };
+		11A0AF6224D1B2A3009DD9E8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF6124D1B2A3009DD9E8 /* CustomTableViewCell.swift */; };
+		11A0AF6424D1B2B9009DD9E8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF6324D1B2B9009DD9E8 /* DetailViewController.swift */; };
+		11A0AF6624D1B2D4009DD9E8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF6524D1B2D4009DD9E8 /* NetworkManager.swift */; };
+		11A0AF6824D1B2DC009DD9E8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0AF6724D1B2DC009DD9E8 /* Character.swift */; };
+		6D33796E4141AEB986B1072A /* Pods_TestRickAndMortyAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6EF7B9532AB1EB01802F1A /* Pods_TestRickAndMortyAlamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06AC685D254BC158125D927F /* Pods-TestRickAndMortyAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRickAndMortyAlamofire.debug.xcconfig"; path = "Target Support Files/Pods-TestRickAndMortyAlamofire/Pods-TestRickAndMortyAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		0C6EF7B9532AB1EB01802F1A /* Pods_TestRickAndMortyAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRickAndMortyAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		112664DC24D47C02002283F9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		112664DE24D48001002283F9 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		11A0AF4824D1B189009DD9E8 /* TestRickAndMortyAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRickAndMortyAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A0AF4B24D1B189009DD9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A0AF4D24D1B189009DD9E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11A0AF4F24D1B189009DD9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11A0AF5224D1B189009DD9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A0AF5424D1B18C009DD9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A0AF5724D1B18C009DD9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A0AF5924D1B18C009DD9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A0AF5F24D1B293009DD9E8 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		11A0AF6124D1B2A3009DD9E8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		11A0AF6324D1B2B9009DD9E8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		11A0AF6524D1B2D4009DD9E8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		11A0AF6724D1B2DC009DD9E8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CCEAFC23AB63EB986B7C760A /* Pods-TestRickAndMortyAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRickAndMortyAlamofire.release.xcconfig"; path = "Target Support Files/Pods-TestRickAndMortyAlamofire/Pods-TestRickAndMortyAlamofire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D33796E4141AEB986B1072A /* Pods_TestRickAndMortyAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				11A0AF4A24D1B189009DD9E8 /* TestRickAndMortyAlamofire */,
 				11A0AF4924D1B189009DD9E8 /* Products */,
+				D34C1D28A748CBB46D1171B9 /* Pods */,
+				C13F2B860B6E65E466C9CF52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,94 @@
 		11A0AF4A24D1B189009DD9E8 /* TestRickAndMortyAlamofire */ = {
 			isa = PBXGroup;
 			children = (
-				11A0AF4B24D1B189009DD9E8 /* AppDelegate.swift */,
-				11A0AF4D24D1B189009DD9E8 /* SceneDelegate.swift */,
-				11A0AF4F24D1B189009DD9E8 /* ViewController.swift */,
-				11A0AF5124D1B189009DD9E8 /* Main.storyboard */,
-				11A0AF5424D1B18C009DD9E8 /* Assets.xcassets */,
-				11A0AF5624D1B18C009DD9E8 /* LaunchScreen.storyboard */,
-				11A0AF5924D1B18C009DD9E8 /* Info.plist */,
+				11EB867A24D594100060A2AF /* Views */,
+				11A0AF6C24D1B322009DD9E8 /* SupportingFiles */,
+				11A0AF6924D1B2E9009DD9E8 /* ViewControllers */,
+				11A0AF6E24D1B367009DD9E8 /* Storyboards */,
+				11A0AF6A24D1B2FE009DD9E8 /* Services */,
+				11A0AF6B24D1B308009DD9E8 /* Models */,
+				11A0AF6D24D1B343009DD9E8 /* Sourses */,
 			);
 			path = TestRickAndMortyAlamofire;
+			sourceTree = "<group>";
+		};
+		11A0AF6924D1B2E9009DD9E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF5F24D1B293009DD9E8 /* MainTableViewController.swift */,
+				11A0AF6324D1B2B9009DD9E8 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11A0AF6A24D1B2FE009DD9E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF6524D1B2D4009DD9E8 /* NetworkManager.swift */,
+				112664DE24D48001002283F9 /* ImageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11A0AF6B24D1B308009DD9E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF6724D1B2DC009DD9E8 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11A0AF6C24D1B322009DD9E8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF4B24D1B189009DD9E8 /* AppDelegate.swift */,
+				11A0AF4D24D1B189009DD9E8 /* SceneDelegate.swift */,
+				11A0AF5924D1B18C009DD9E8 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		11A0AF6D24D1B343009DD9E8 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF5424D1B18C009DD9E8 /* Assets.xcassets */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		11A0AF6E24D1B367009DD9E8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF5124D1B189009DD9E8 /* Main.storyboard */,
+				11A0AF5624D1B18C009DD9E8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		11EB867A24D594100060A2AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11A0AF6124D1B2A3009DD9E8 /* CustomTableViewCell.swift */,
+				112664DC24D47C02002283F9 /* ImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C13F2B860B6E65E466C9CF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EF7B9532AB1EB01802F1A /* Pods_TestRickAndMortyAlamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34C1D28A748CBB46D1171B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06AC685D254BC158125D927F /* Pods-TestRickAndMortyAlamofire.debug.xcconfig */,
+				CCEAFC23AB63EB986B7C760A /* Pods-TestRickAndMortyAlamofire.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11A0AF5C24D1B18D009DD9E8 /* Build configuration list for PBXNativeTarget "TestRickAndMortyAlamofire" */;
 			buildPhases = (
+				354709F655187E7E6BA4787C /* [CP] Check Pods Manifest.lock */,
 				11A0AF4424D1B189009DD9E8 /* Sources */,
 				11A0AF4524D1B189009DD9E8 /* Frameworks */,
 				11A0AF4624D1B189009DD9E8 /* Resources */,
+				643D9693383D87D63EAA96A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +233,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		354709F655187E7E6BA4787C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRickAndMortyAlamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		643D9693383D87D63EAA96A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestRickAndMortyAlamofire/Pods-TestRickAndMortyAlamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestRickAndMortyAlamofire/Pods-TestRickAndMortyAlamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestRickAndMortyAlamofire/Pods-TestRickAndMortyAlamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11A0AF4424D1B189009DD9E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A0AF5024D1B189009DD9E8 /* ViewController.swift in Sources */,
+				112664DD24D47C02002283F9 /* ImageView.swift in Sources */,
+				11A0AF6624D1B2D4009DD9E8 /* NetworkManager.swift in Sources */,
 				11A0AF4C24D1B189009DD9E8 /* AppDelegate.swift in Sources */,
+				112664DF24D48001002283F9 /* ImageManager.swift in Sources */,
+				11A0AF6824D1B2DC009DD9E8 /* Character.swift in Sources */,
+				11A0AF6024D1B293009DD9E8 /* MainTableViewController.swift in Sources */,
+				11A0AF6424D1B2B9009DD9E8 /* DetailViewController.swift in Sources */,
+				11A0AF6224D1B2A3009DD9E8 /* CustomTableViewCell.swift in Sources */,
 				11A0AF4E24D1B189009DD9E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +430,12 @@
 		};
 		11A0AF5D24D1B18D009DD9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06AC685D254BC158125D927F /* Pods-TestRickAndMortyAlamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4E77TZ5DGN;
-				INFOPLIST_FILE = TestRickAndMortyAlamofire/Info.plist;
+				INFOPLIST_FILE = TestRickAndMortyAlamofire/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +449,12 @@
 		};
 		11A0AF5E24D1B18D009DD9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEAFC23AB63EB986B7C760A /* Pods-TestRickAndMortyAlamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4E77TZ5DGN;
-				INFOPLIST_FILE = TestRickAndMortyAlamofire/Info.plist;
+				INFOPLIST_FILE = TestRickAndMortyAlamofire/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
