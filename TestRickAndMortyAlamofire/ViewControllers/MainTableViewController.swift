@@ -49,9 +49,9 @@ class MainTableViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        let persons = characters?.results[indexPath.row]
+        let person = characters?.results[indexPath.row]
         let detailVC = segue.destination as! DetailViewController
-        detailVC.character = persons
+        detailVC.character = person
     }
 }
     
